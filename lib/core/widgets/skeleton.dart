@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
 
-/// A pulsing placeholder block used while content loads.
 class SkeletonBox extends StatefulWidget {
   const SkeletonBox({super.key, this.width, this.height, this.radius = 16});
 

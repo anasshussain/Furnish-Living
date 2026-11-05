@@ -28,7 +28,6 @@ class Product {
   final ProductCategory category;
   final FurnitureKind kind;
 
-  /// Price in cents (5750 == $57.50).
   final int priceCents;
   final List<ProductColor> colors;
   final String description;

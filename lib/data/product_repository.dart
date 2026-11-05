@@ -1,8 +1,6 @@
 import 'mock_products.dart';
 import 'models/product.dart';
 
-/// Source of truth for products. Replace the body of [fetchAll] with a
-/// network or Supabase call when you are ready for a real backend.
 class ProductRepository {
   const ProductRepository();
 

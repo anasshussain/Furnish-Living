@@ -1,4 +1,3 @@
-/// The silhouette used to draw a product (see FurniturePainter).
 enum FurnitureKind {
   tubChair('Armchair'),
   bubbleChair('Cloud chair'),

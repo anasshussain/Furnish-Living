@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
 
-/// Wraps a child with a tap handler and a subtle press-down scale animation.
 class PressScale extends StatefulWidget {
   const PressScale({
     super.key,

@@ -2,8 +2,6 @@ import 'dart:ui';
 
 import 'package:flutter/material.dart';
 
-/// A frosted-glass surface (glassmorphism): blurred backdrop, soft tinted
-/// gradient, hairline highlight border and a very light shadow.
 class GlassContainer extends StatelessWidget {
   const GlassContainer({
     super.key,

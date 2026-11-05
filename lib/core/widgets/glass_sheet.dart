@@ -2,7 +2,6 @@ import 'package:flutter/material.dart';
 
 import 'glass_container.dart';
 
-/// Opens a modal bottom sheet rendered as a frosted-glass card.
 Future<T?> showGlassSheet<T>(
   BuildContext context, {
   required WidgetBuilder builder,

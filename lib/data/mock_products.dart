@@ -21,10 +21,7 @@ const _ash = ProductColor('Ash', Color(0xFFDCC8A8));
 const _black = ProductColor('Black', Color(0xFF1E1E1E));
 const _white = ProductColor('White', Color(0xFFF3F1EC));
 
-/// Local catalogue used by [ProductRepository]. Swap the repository for a
-/// network/Supabase implementation to load real data.
 const List<Product> kProducts = [
-  // ---- Chairs -------------------------------------------------------------
   Product(
     id: 'soft-element-jack',
     name: 'Soft Element Jack',
@@ -93,7 +90,6 @@ const List<Product> kProducts = [
     reviews: 73,
   ),
 
-  // ---- Sofas --------------------------------------------------------------
   Product(
     id: 'nordic-haven-sofa',
     name: 'Nordic Haven Sofa',
@@ -147,7 +143,6 @@ const List<Product> kProducts = [
     reviews: 119,
   ),
 
-  // ---- Tables -------------------------------------------------------------
   Product(
     id: 'oakline-dining',
     name: 'Oakline Dining Table',
@@ -201,7 +196,6 @@ const List<Product> kProducts = [
     reviews: 64,
   ),
 
-  // ---- Kitchen ------------------------------------------------------------
   Product(
     id: 'brio-bar-stool',
     name: 'Brio Bar Stool',
@@ -255,7 +249,6 @@ const List<Product> kProducts = [
     reviews: 58,
   ),
 
-  // ---- Beds ---------------------------------------------------------------
   Product(
     id: 'serene-queen-bed',
     name: 'Serene Queen Bed',
@@ -296,7 +289,6 @@ const List<Product> kProducts = [
     reviews: 189,
   ),
 
-  // ---- Decor --------------------------------------------------------------
   Product(
     id: 'halo-floor-lamp',
     name: 'Halo Floor Lamp',

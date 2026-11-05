@@ -2,7 +2,6 @@ import 'dart:async';
 
 import 'package:flutter/material.dart';
 
-/// Fades and slides its child in once, after an optional [delay].
 class FadeSlideIn extends StatefulWidget {
   const FadeSlideIn({
     super.key,
@@ -15,7 +14,6 @@ class FadeSlideIn extends StatefulWidget {
   final Widget child;
   final Duration delay;
 
-  /// Starting offset as a fraction of the child's size.
   final Offset offset;
   final Duration duration;
 
